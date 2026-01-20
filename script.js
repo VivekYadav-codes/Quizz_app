@@ -35,7 +35,7 @@ let questions = [
         answer: 0
     },
     {
-        question: "What is the correct way to create a function?",
+        question: "8. What is the correct way to create a function?",
         options: ["function myFunction()", "create myFunction()", "def myFunction()", "var myFunction = function()"],
         answer: 0
     },
@@ -45,7 +45,7 @@ let questions = [
         answer: 3
     },
     {
-        question: "Which method is used to get an HTML element by ID?",
+        question: "10. Which method is used to get an HTML element by ID?",
         options: ["getElement()", "getElementsByClassName()", "getElementById()", "querySelector()"],
         answer: 3
     },
@@ -59,7 +59,7 @@ function loadQuestion() {
     document.getElementById("opt2").innerText = questions[index].options[1];
     document.getElementById("opt3").innerText = questions[index].options[2];
     document.getElementById("opt4").innerText = questions[index].options[3];
-    document.getElementById("result").innerText = "";
+    document.getElementById("result") = "";
 }
 
 function checkAnswer(option) {
@@ -75,8 +75,9 @@ function nextQuestion() {
     if (index < questions.length) {
         loadQuestion();
     } else {
-        document.getElementById("question").innerText = "Quiz Finished 🎉";
-        document.getElementById("result").innerText = "";
+     document.getElementById("question").innerText= "     Quiz Finished 🎉";
+        document.getElementById("result").innerText = "you win";
+        
     }
 }
 

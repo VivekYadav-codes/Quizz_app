@@ -1,6 +1,12 @@
 body {
-    background: #121212;
-    color: white;
+background: radial-gradient(
+  circle at top left,
+  #3b82f6,
+  #0b0f19 60%
+);
+
+
+    color: rgb(92, 245, 9);
     font-family: Arial;
     display: flex;
     justify-content: center;
@@ -9,16 +15,24 @@ body {
 }
 
 .quiz-box {
-    background: #1e1e1e;
-    padding: 20px;
-    width: 300px;
-    border-radius: 10px;
-    text-align: center;
+    width: 320px;
+    height: 420px;
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+  border-radius: 18px;
+  padding: 24px;
+  color: #ffffff;
 }
+
 
 button {
     width: 100%;
     padding: 8px;
     margin: 5px 0;
     cursor: pointer;
+}
+button:hover {
+    background-color: gray;
 }
