@@ -1,40 +1,54 @@
 let questions = [
     {
-        question: "What is JavaScript?",
+        question: "1. What is JavaScript?",
         options: ["Programming Language", "Database", "Browser", "OS"],
         answer: 0
     },
     {
-        question: "Which tag is used for JS?",
+        question: "2. Which tag is used for JS?",
         options: ["<js>", "<javascript>", "<script>", "<code>"],
         answer: 2
     },
     {
-        question: "Which symbol is used for comments?",
+        question: "3. Which symbol is used for comments?",
         options: ["//", "##", "<!-- -->", "**"],
         answer: 0
     },
     {
-        question: "Which keyword is used to declare a variable in JavaScript?",
+        question: "4. Which keyword is used to declare a variable in JavaScript?",
         options: ["var", "let", "const", "variable"],
         answer: 1
     },
     {
-        question: "Which function is used to print output in JavaScript?",
+        question: "5. Which function is used to print output in JavaScript?",
         options: ["console.log()", "print()", "output()", "display()"],
         answer: 0
     },
     {
-        question: "JavaScript code is executed in the ______.",
+        question: "6.JavaScript code is executed in the ______.",
         options: ["server", "compiler", "browser", "database"],
         answer: 3
     },
     {
-        question: "Which operator is used for addition in JavaScript?",
+        question: "7. Which operator is used for addition in JavaScript?",
         options: ["+", "-", "*", "/"],
         answer: 0
     },
-    
+    {
+        question: "What is the correct way to create a function?",
+        options: ["function myFunction()", "create myFunction()", "def myFunction()", "var myFunction = function()"],
+        answer: 0
+    },
+    {
+        question: "9. Which data type is NOT in JavaScript?",
+        options: ["string", "boolean", "character", "number"],
+        answer: 3
+    },
+    {
+        question: "Which method is used to get an HTML element by ID?",
+        options: ["getElement()", "getElementsByClassName()", "getElementById()", "querySelector()"],
+        answer: 3
+    },
 ];
 
 let index = 0;
